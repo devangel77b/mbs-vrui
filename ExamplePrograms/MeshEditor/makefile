@@ -20,7 +20,7 @@
 ########################################################################
 
 # Set the Vrui installation directory:
-VRUISHAREDIR := $(HOME)/Vrui-4.0/share
+VRUISHAREDIR := /usr/local/share/Vrui-8.0
 
 # Set up additional flags for the C++ compiler:
 CFLAGS = 

@@ -24,7 +24,7 @@ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
 
 #define SCENEGRAPH_CONFIG_HAVE_FANCYTEXT 1
 
-#define SCENEGRAPH_CONFIG_FONTDIR "/usr/share/fonts/gnu-free/"
+#define SCENEGRAPH_CONFIG_FONTDIR "/usr/share/fonts/truetype/freefont/"
 
 #define SCENEGRAPH_CONFIG_FONT_SANS_PLAIN "FreeSans.ttf"
 #define SCENEGRAPH_CONFIG_FONT_SANS_BOLD "FreeSansBold.ttf"

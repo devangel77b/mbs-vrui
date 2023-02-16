@@ -22,6 +22,6 @@ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
 #ifndef SCENEGRAPH_INTERNAL_CONFIG_INCLUDED
 #define SCENEGRAPH_INTERNAL_CONFIG_INCLUDED
 
-#define SCENEGRAPH_CONFIG_DOOM3MATERIALMANAGER_SHADERDIR "/home/okreylos/Share/Shaders/SceneGraph"
+#define SCENEGRAPH_CONFIG_DOOM3MATERIALMANAGER_SHADERDIR "/usr/local/share/Vrui-8.0/Shaders/SceneGraph"
 
 #endif

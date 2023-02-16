@@ -23,10 +23,10 @@ Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA
 #ifndef VRDEVICEDAEMON_CONFIG_INCLUDED
 #define VRDEVICEDAEMON_CONFIG_INCLUDED
 
-#define VRDEVICEDAEMON_CONFIG_VRDEVICESDIR_DEBUG "/home/okreylos/Share/VRDevices/lib64/debug"
-#define VRDEVICEDAEMON_CONFIG_VRDEVICESDIR_RELEASE "/home/okreylos/Share/VRDevices/lib64"
-#define VRDEVICEDAEMON_CONFIG_VRCALIBRATORSDIR_DEBUG "/home/okreylos/Share/VRCalibrators/lib64/debug"
-#define VRDEVICEDAEMON_CONFIG_VRCALIBRATORSDIR_RELEASE "/home/okreylos/Share/VRCalibrators/lib64"
+#define VRDEVICEDAEMON_CONFIG_VRDEVICESDIR_DEBUG "/usr/local/lib/x86_64-linux-gnu/Vrui-8.0/debug/VRDevices"
+#define VRDEVICEDAEMON_CONFIG_VRDEVICESDIR_RELEASE "/usr/local/lib/x86_64-linux-gnu/Vrui-8.0/VRDevices"
+#define VRDEVICEDAEMON_CONFIG_VRCALIBRATORSDIR_DEBUG "/usr/local/lib/x86_64-linux-gnu/Vrui-8.0/debug/VRCalibrators"
+#define VRDEVICEDAEMON_CONFIG_VRCALIBRATORSDIR_RELEASE "/usr/local/lib/x86_64-linux-gnu/Vrui-8.0/VRCalibrators"
 #ifdef DEBUG
 	#define VRDEVICEDAEMON_CONFIG_VRDEVICESDIR VRDEVICEDAEMON_CONFIG_VRDEVICESDIR_DEBUG
 	#define VRDEVICEDAEMON_CONFIG_VRCALIBRATORSDIR VRDEVICEDAEMON_CONFIG_VRCALIBRATORSDIR_DEBUG
@@ -37,8 +37,8 @@ Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA
 
 #define VRDEVICEDAEMON_CONFIG_DSONAMETEMPLATE "lib%s.so"
 
-#define VRDEVICEDAEMON_CONFIG_CONFIGFILENAME "/home/okreylos/Share/VRDevices.cfg"
-#define VRDEVICEDAEMON_CONFIG_CONFIGDIR "/home/okreylos/Projects/VRDeviceDaemon/Config"
+#define VRDEVICEDAEMON_CONFIG_CONFIGFILENAME "/usr/local/etc/Vrui-8.0/VRDevices.cfg"
+#define VRDEVICEDAEMON_CONFIG_CONFIGDIR "/usr/local/etc/Vrui-8.0/VRDeviceDaemon"
 
 #define VRDEVICEDAEMON_CONFIG_INPUT_H_HAS_STRUCTS 1
 

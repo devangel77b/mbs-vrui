@@ -26,6 +26,7 @@ Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA
 
 #include <GL/GLNumberRenderer.h>
 #include <Vrui/Vislet.h>
+#include <cstddef>
 
 namespace Vrui {
 

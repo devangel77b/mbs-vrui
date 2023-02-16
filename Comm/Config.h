@@ -23,6 +23,6 @@ Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA
 #ifndef COMM_CONFIG_INCLUDED
 #define COMM_CONFIG_INCLUDED
 
-#define COMM_CONFIG_HAVE_OPENSSL 0
+#define COMM_CONFIG_HAVE_OPENSSL 1
 
 #endif

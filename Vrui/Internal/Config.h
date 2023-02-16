@@ -31,12 +31,12 @@ Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA
 
 #define VRUI_INTERNAL_CONFIG_INPUT_H_HAS_STRUCTS 1
 
-#define VRUI_INTERNAL_CONFIG_LIBDIR_DEBUG "/home/okreylos/lib64"
-#define VRUI_INTERNAL_CONFIG_LIBDIR_RELEASE "/home/okreylos/lib64"
-#define VRUI_INTERNAL_CONFIG_EXECUTABLEDIR_DEBUG "/home/okreylos/Libraries/exe"
-#define VRUI_INTERNAL_CONFIG_EXECUTABLEDIR_RELEASE "/home/okreylos/Libraries/exe"
-#define VRUI_INTERNAL_CONFIG_PLUGINDIR_DEBUG "/home/okreylos/Share"
-#define VRUI_INTERNAL_CONFIG_PLUGINDIR_RELEASE "/home/okreylos/Share"
+#define VRUI_INTERNAL_CONFIG_LIBDIR_DEBUG "/usr/local/lib/x86_64-linux-gnu/Vrui-8.0/debug"
+#define VRUI_INTERNAL_CONFIG_LIBDIR_RELEASE "/usr/local/lib/x86_64-linux-gnu/Vrui-8.0"
+#define VRUI_INTERNAL_CONFIG_EXECUTABLEDIR_DEBUG "/usr/local/bin/debug"
+#define VRUI_INTERNAL_CONFIG_EXECUTABLEDIR_RELEASE "/usr/local/bin"
+#define VRUI_INTERNAL_CONFIG_PLUGINDIR_DEBUG "/usr/local/lib/x86_64-linux-gnu/Vrui-8.0/debug"
+#define VRUI_INTERNAL_CONFIG_PLUGINDIR_RELEASE "/usr/local/lib/x86_64-linux-gnu/Vrui-8.0"
 
 #ifdef DEBUG
 	#define VRUI_INTERNAL_CONFIG_LIBDIR VRUI_INTERNAL_CONFIG_LIBDIR_DEBUG
@@ -48,10 +48,10 @@ Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA
 	#define VRUI_INTERNAL_CONFIG_PLUGINDIR VRUI_INTERNAL_CONFIG_PLUGINDIR_RELEASE
 #endif
 
-#define VRUI_INTERNAL_CONFIG_TOOLDIR_DEBUG "/home/okreylos/Share/VRTools-2.0/lib64/debug"
-#define VRUI_INTERNAL_CONFIG_TOOLDIR_RELEASE "/home/okreylos/Share/VRTools-2.0/lib64"
-#define VRUI_INTERNAL_CONFIG_VISLETDIR_DEBUG "/home/okreylos/Share/VRVislets-2.0/lib64/debug"
-#define VRUI_INTERNAL_CONFIG_VISLETDIR_RELEASE "/home/okreylos/Share/VRVislets-2.0/lib64"
+#define VRUI_INTERNAL_CONFIG_TOOLDIR_DEBUG "/usr/local/lib/x86_64-linux-gnu/Vrui-8.0/debug/VRTools"
+#define VRUI_INTERNAL_CONFIG_TOOLDIR_RELEASE "/usr/local/lib/x86_64-linux-gnu/Vrui-8.0/VRTools"
+#define VRUI_INTERNAL_CONFIG_VISLETDIR_DEBUG "/usr/local/lib/x86_64-linux-gnu/Vrui-8.0/debug/VRVislets"
+#define VRUI_INTERNAL_CONFIG_VISLETDIR_RELEASE "/usr/local/lib/x86_64-linux-gnu/Vrui-8.0/VRVislets"
 #ifdef DEBUG
 	#define VRUI_INTERNAL_CONFIG_TOOLDIR VRUI_INTERNAL_CONFIG_TOOLDIR_DEBUG
 	#define VRUI_INTERNAL_CONFIG_VISLETDIR VRUI_INTERNAL_CONFIG_VISLETDIR_DEBUG
@@ -65,14 +65,14 @@ Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA
 
 #define VRUI_INTERNAL_CONFIG_CONFIGFILENAME "Vrui"
 #define VRUI_INTERNAL_CONFIG_CONFIGFILESUFFIX ".cfg"
-#define VRUI_INTERNAL_CONFIG_SYSCONFIGDIR "/home/okreylos/Share"
+#define VRUI_INTERNAL_CONFIG_SYSCONFIGDIR "/usr/local/etc/Vrui-8.0"
 #define VRUI_INTERNAL_CONFIG_HAVE_USERCONFIGFILE 1
-#define VRUI_INTERNAL_CONFIG_USERCONFIGDIR ".config/Vrui-devel"
+#define VRUI_INTERNAL_CONFIG_USERCONFIGDIR ".config/Vrui-8.0"
 #define VRUI_INTERNAL_CONFIG_APPCONFIGDIR "Applications"
 #define VRUI_INTERNAL_CONFIG_DEFAULTROOTSECTION "Desktop"
 
-#define VRUI_INTERNAL_CONFIG_VERSION 6000001
-#define VRUI_INTERNAL_CONFIG_ETCDIR "/home/okreylos/Share"
-#define VRUI_INTERNAL_CONFIG_SHAREDIR "/home/okreylos/Share"
+#define VRUI_INTERNAL_CONFIG_VERSION 8000002
+#define VRUI_INTERNAL_CONFIG_ETCDIR "/usr/local/etc/Vrui-8.0"
+#define VRUI_INTERNAL_CONFIG_SHAREDIR "/usr/local/share/Vrui-8.0"
 
 #endif

@@ -24,9 +24,9 @@ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
 
 #define GLSUPPORT_CONFIG_HAVE_GLXGETPROCADDRESS 1
 
-#define GLSUPPORT_CONFIG_USE_TLS 1
+#define GLSUPPORT_CONFIG_USE_TLS 0
 #define GLSUPPORT_CONFIG_HAVE_BUILTIN_TLS 1
 
-#define GLSUPPORT_CONFIG_GL_FONT_DIR "/home/okreylos/Share/GLFonts"
+#define GLSUPPORT_CONFIG_GL_FONT_DIR "/usr/local/share/Vrui-8.0/GLFonts"
 
 #endif

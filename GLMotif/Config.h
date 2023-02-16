@@ -22,6 +22,6 @@ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
 #ifndef GLMOTIF_CONFIG_INCLUDED
 #define GLMOTIF_CONFIG_INCLUDED
 
-#define GLMOTIF_CONFIG_SHAREDIR "/home/okreylos/Share"
+#define GLMOTIF_CONFIG_SHAREDIR "/usr/local/share/Vrui-8.0"
 
 #endif
